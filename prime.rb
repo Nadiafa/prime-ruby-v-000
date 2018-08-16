@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(n)
-  return true if n % n == 0
+  (n % n == 0) ? true : false
 end
