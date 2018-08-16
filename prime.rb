@@ -1,4 +1,8 @@
 # Add  code here!
 def prime?(n)
-  (n % n == 0) ? true : false
+  if n % n == 0
+    true
+  else
+    false
+  end
 end
