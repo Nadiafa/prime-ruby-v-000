@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
-  if n.prime?
+  n.prime?
     true
   else
     false
