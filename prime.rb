@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(n)
-  n.prime?
+  return true if n % n == 0
 end
