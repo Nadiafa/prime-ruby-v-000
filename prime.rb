@@ -3,7 +3,7 @@ def prime?(n)
   if n <= 0 || n == 1 
     false
   else
-    (3..n-1).to_a.all? do |factor|
+    (2..n-1).to_a.all? do |factor|
       n % factor != 0
     end
   end
