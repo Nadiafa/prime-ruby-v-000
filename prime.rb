@@ -1,4 +1,8 @@
 # Add  code here!
 def prime?(n)
-  n.prime? ? true : false
+  if n.prime?
+    true
+  else
+    false
+  end 
 end
